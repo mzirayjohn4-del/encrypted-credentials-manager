@@ -16,5 +16,4 @@ def save_password(site, password):
         json.dump(vault, file, indent=4)
     print(f"Saved password for {site}")
 
-# Friend's basic test
 save_password("github.com", "my_super_secret_password")
